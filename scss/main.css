@@ -308,6 +308,11 @@ h1 {
   left: 10px;
   width: 380px;
 }
+#form .formPrincipal label.textoMensaje {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 #form input {
   display: block;
   position: relative;
@@ -375,13 +380,16 @@ h1 {
   div.seccion {
     padding: 10px 20px;
   }
+  div.bloque {
+    width: 300px;
+  }
   #cuerpoInterno div .seccion {
     gap: 10px;
     padding: 10px 20px;
   }
   #cuerpoInterno div .seccion .bloque {
     display: grid;
-    grid-template-columns: 100px 140px 50px;
+    grid-template-columns: 100px 110px 50px;
     grid-template-rows: 10px 40px 40px;
     height: 150px;
     width: 370px;
@@ -399,5 +407,8 @@ h1 {
   }
   #pedidoArmado {
     width: 350px;
+  }
+  form.formPrincipal {
+    padding-left: 20px;
   }
 }/*# sourceMappingURL=main.css.map */
